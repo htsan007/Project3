@@ -3,25 +3,30 @@ By: Harvey Tsang
 
 ***Inverse Kinematics simulation overview video:***
 ---
-{% include youtube.html id="rl4Ep5qccD8" %}
+{% include youtube.html id="ZqVatlZT_NA" %}
 
 ---
 
-**Cloth timestamps/list of attempted features:**
+**Multiarm IK timestamps/list of attempted features:**
 --
-**IK simulation:** 0:00 - 0:26
+**IK multi-arm simulation:** 0:00 - 0:18, 0:29 - 1:01, 1:57 - 2:19
 
 I created a cloth simulation starting by defining a 50 x 50 mesh of nodes, and then connecting them with springs. In order to make it look like cloth when drawn, I drew triangles connecting between each point. The cloth is pinned along the top, and is affected by the force of gravity. It collides with the red ball object as it falls. The simulation can be started/stopped using the spacebar.
 
 ---
-**3D simulation:** 0:27 - 0:52
+**User Interaction:** 0:19 - 0:29
 
 The simulation scene is in 3D and includes a camera that can be repositioned with the 'wasd' keys. The view direction can be changed with the arrow keys.
 
 ---
-**High-quality Rendering:** 0:54 - 1:09
+**Joint angle & rotation limits:** 1:03 - 1:35, 1:36 - 1:56, 2:19 - 2:29
 
 For high-quality rendering I added lighting to the scene and also textured the cloth to look like a flag by giving each triangle vertex a corresponding texture coordinate.
+
+---
+**3D simulation:** 2:30 - 2:57
+
+The simulation scene is in 3D and includes a camera that can be repositioned with the 'wasd' keys. The view direction can be changed with the arrow keys.
 
 ---
 **IK Difficulties:** 
