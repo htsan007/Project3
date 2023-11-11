@@ -75,7 +75,7 @@ IK:
 
 |Both arms reach Goal:          | Arms out of reach of ball:          |Right arm reaches ball:    | 
 |-------------------------|-------------------------|-------------------------------------|
-|<img src="./docs/assets/IK both arms goal.JPG" width="640" height="480"> | <img src="./docs/assets/IK both arms out of reach left.JPG" width="640" height="480"> |  <img src="./docs/assets/right arm reach goal.JPG" width="640" height="480">  |       
+|<img src="./docs/assets/IK both arms goal.JPG" width="480" height="640"> | <img src="./docs/assets/IK both arms out of reach left.JPG" width="640" height="480"> |  <img src="./docs/assets/right arm reach goal.JPG" width="640" height="480">  |       
 
 Single Agent Navigation:
 -
