@@ -73,16 +73,16 @@ I had some trouble at first with making the fluid flow realisticly. Everything w
 IK:
 -
 
-|Start screen:          | Arms out of reach of ball:          |Arms reach ball:    | 
+|Both arms reach Goal:          | Arms out of reach of ball:          |Right arm reaches ball:    | 
 |-------------------------|-------------------------|-------------------------------------|
-|<img src="./docs/assets/cloth start.JPG" width="300" height="300"> | <img src="./docs/assets/cloth mid scene.JPG" width="300" height="300"> |  <img src="./docs/assets/cloth collision.JPG" width="300" height="300">  |       
+|<img src="./docs/assets/IK both arms goal.JPG" width="300" height="300"> | <img src="./docs/assets/IK both arms out of reach left.JPG" width="300" height="300"> |  <img src="./docs/assets/right arm reach goal.JPG" width="300" height="300">  |       
 
 Single Agent Navigation:
 -
 
 |Start of traversal:          | Mid traversal:          |End of traversal:    | 
 |-------------------------|-------------------------|-------------------------------------|
-|<img src="./docs/assets/fluid start.JPG" width="300" height="300"> | <img src="./docs/assets/fluid mid.JPG" width="300" height="300"> |  <img src="./docs/assets/fluid interacting.JPG" width="300" height="300">  |          
+|<img src="./docs/assets/start traversal pathing.JPG" width="300" height="300"> | <img src="./docs/assets/mid path traversal.JPG" width="300" height="300"> |  <img src="./docs/assets/fin path traversal.JPG" width="300" height="300">  |          
 
 ---
 ***Source code:***
