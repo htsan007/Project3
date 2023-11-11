@@ -45,24 +45,19 @@ A difficult part of implementing the cloth was adding the collision with the bal
 
 **Single Agent Navigation timestamps/list of attempted features:**
 ---
-**Single Agent Navigation simulation:** 0:00 - 0:31
+**Single Agent Navigation simulation:** 0:00 - 0:33, 2:00 - 2:22
 
 I created the SPH Fluid simulation in 2D. There is a total 750 particles that are eventually added to the scene when the simulation is started. While the simulation is running the user is able to interact with the fluid particles using the left-click on the mouse. The simulation can be started/stopped using the spacebar.
 
 ---
-**Larger Scene:** 0:06 - 0:31
+**Path traversal and smooth rotation:** 0:34 - 1:02
 
 I created a larger scene to look like a bathroom sink. There are visible white "sink" boundaries on the bottom half of the scene and the fluid will generate from the faucet head when started. After all the particles have been spawned, it will look as if the sink is full.
 
 ---
-**User interaction:** 0:53 - 1:11
+**Reseting Paths/Scene:** 1:03 - 1:59
 
 To interact with the fluid, the user can use the left-click on the mouse grab and move a chunk of particles. When the mouse-click is released the particles will also be released. 
-
----
-**Color**: 1:12 - 1:25
-
-The particles were colored to represent the total amount of pressure they are under. This forms a blue gradient across the particles, with dark blue being high pressure on the bottom, and light blue having low pressure on the top.
 
 ---
 **Single Agent Navigation Difficulties:**
@@ -96,7 +91,7 @@ Single Agent Navigation:
 
 <a href= "/Pathing_code/CSCI5611_proj3_pathing.pde" download>Download Pathing Code</a>
 
-The cloth and fluid simulations were written by me. Included in them are the functionalities for each corresponding simulation, as well as a 2D/3D vector class if it was 2D or 3D. Both vector classes were modified based on Professor Guy's original version. I also made use of the provided camera.pde functionality that was provided from in class. The cloth simulation and SPH fluid simulation were written using Professor Guy's cloth/fluid slides and code examples as a basis. I also referenced  <a href="https://processing.org/reference/"> Processing documentation </a> to explore built-in functions and their functionalities regarding PImage, texturing, mouse/key input, etc.
+The IK and Navigation simulations were written by me. Included in them are the functionalities for each corresponding simulation, as well as a 2D/3D vector class if it was 2D or 3D. Both vector classes were modified based on Professor Guy's original version. I also made use of the provided camera.pde functionality that was provided from in class. The cloth simulation and SPH fluid simulation were written using Professor Guy's cloth/fluid slides and code examples as a basis. I also referenced  <a href="https://processing.org/reference/"> Processing documentation </a> to explore built-in functions and their functionalities regarding PImage, texturing, mouse/key input, etc.
 
 The fluid simulation background texture was sourced from: <a href="https://www.vecteezy.com/photo/17154821-the-bathroom-faucet-is-turned-off-to-save-water-energy-and-protect-the-environment-water-saving-concept "> Vecteezy </a>
 
