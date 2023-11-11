@@ -82,7 +82,7 @@ Single Agent Navigation:
 
 |Start of traversal:          | Mid traversal:          |End of traversal:    | 
 |-------------------------|-------------------------|-------------------------------------|
-<img src="./docs/assets/start traversal pathing.JPG" width="1024" height="768"> | <img src="./docs/assets/mid path traversal.JPG" width="1024" height="768"> |  <img src="./docs/assets/fin path traversal.JPG" width="1024" height="768">            
+<img src="./docs/assets/start traversal pathing.JPG" width="300" height="200"> | <img src="./docs/assets/mid path traversal.JPG" width="300" height="200"> |  <img src="./docs/assets/fin path traversal.JPG" width="300" height="200">            
 
 ---
 ***Source code:***
