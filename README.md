@@ -47,7 +47,7 @@ A difficult part in implementing the multi-arms was correctly positioning and ro
 ---
 **Single Agent Navigation simulation:** 0:00 - 0:33, 2:00 - 2:22
 
-I also implemented the single agent navigation. For path planning I used PRM, considering the configuration space defined by the radomized obstacles and the navigator. Random nodes were placed within the configuration space and then connected. This network of connected nodes was then accessed using the BFS algorithm to create a path from the chosen start point to the chosen goal point. The navigator then traversed along that path, making turns when necessary, until the goal was reached. To start or stop the traversal, the spacebar is pressed.
+I also implemented the single agent navigation. For path planning I used PRM, considering the configuration space defined by the radomized obstacles and the navigator. Random nodes were placed within the configuration space and then connected. This network of connected nodes was then accessed using the BFS algorithm to create a path from the chosen start point to the chosen goal point. The start position is randomly selected from the left side of the simulation, and the goal position is randomly selected from the right side. This ensures that whenever the simulation is reset/re-pathed that the navigator will have to traverse the length of the scene between all the obstacles. The navigator then traversed along that path, making turns when necessary, until the goal was reached. To start or stop the traversal, the spacebar is pressed.
 
 ---
 **Path traversal and smooth rotation:** 0:34 - 1:02
@@ -58,6 +58,7 @@ In order to traverse the path I calculated the distance between the navigators p
 **Reseting Paths/Scene:** 1:03 - 1:59
 
 The simulation can also be completely reset by pressing 'r'. This will re-generate the obstacles, nodes and paths, and start and goal positions. An alternative option is to only regenerate the nodes and paths, by clicking with the mouse.
+The start position will always be on the left side of the scene, while the goal position is always on the right.
 
 ---
 **Single Agent Navigation Difficulties:**
